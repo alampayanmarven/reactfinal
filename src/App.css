@@ -1,0 +1,96 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #9bc1eb;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #66a3e4;
+}
+
+button.add-student {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745; /* Green color */
+  color: white;
+  cursor: pointer;
+}
+
+button.add-student:hover {
+  background-color: #218838; /* Darker green color */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th:first-child,
+td:first-child {
+  border-left: none; /* Remove border from the left side of the first column */
+}
+
+th:last-child,
+td:last-child {
+  border-right: none; /* Remove border from the right side of the last column */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.read-the-docs {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  color: #666;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
